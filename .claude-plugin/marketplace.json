@@ -1,0 +1,19 @@
+{
+  "name": "social-media-skills",
+  "owner": {
+    "name": "PublishQ",
+    "url": "https://publishq.com"
+  },
+  "metadata": {
+    "description": "Social media publishing skills for AI agents. Post, schedule and draft to Instagram, TikTok, YouTube, X, LinkedIn, Facebook, Threads and Bluesky through PublishQ.",
+    "version": "0.1.0",
+    "repository": "https://github.com/PublishQ/social-media-skills"
+  },
+  "plugins": [
+    {
+      "name": "social-media-skills",
+      "description": "Give your agent one API key that posts, schedules, drafts, reschedules and cancels across every social account you have connected. Works through the PublishQ CLI, MCP server, SDK or REST API, with per-platform rules and media handling included.",
+      "source": "./"
+    }
+  ]
+}

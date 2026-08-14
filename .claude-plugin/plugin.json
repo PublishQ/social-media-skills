@@ -1,0 +1,13 @@
+{
+  "name": "social-media-skills",
+  "description": "Social media publishing skills for AI agents. Post, schedule and draft to Instagram, TikTok, YouTube, X, LinkedIn, Facebook, Threads and Bluesky through PublishQ.",
+  "version": "0.1.0",
+  "author": {
+    "name": "PublishQ",
+    "url": "https://publishq.com"
+  },
+  "homepage": "https://publishq.com/agents",
+  "repository": "https://github.com/PublishQ/social-media-skills",
+  "license": "Apache-2.0",
+  "skills": "./skills"
+}

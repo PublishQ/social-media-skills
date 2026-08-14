@@ -62,14 +62,26 @@ The CLI detects which agents you have and asks where to put it. Claude Code gets
 > npx skills add PublishQ/social-media-skills --skill publishq -a claude-code
 > ```
 
-### Option 2: Clone and copy
+### Option 2: Claude Code plugin
+
+Install through Claude Code's own plugin system:
+
+```bash
+# Add this repo as a marketplace
+/plugin marketplace add PublishQ/social-media-skills
+
+# Install the skills
+/plugin install social-media-skills
+```
+
+### Option 3: Clone and copy
 
 ```bash
 git clone https://github.com/PublishQ/social-media-skills.git
 cp -r social-media-skills/skills/* .agents/skills/
 ```
 
-### Option 3: Git submodule
+### Option 4: Git submodule
 
 Pins a version and updates on your say-so, which is worth it when a team shares the
 same instructions:
@@ -81,7 +93,7 @@ git submodule add https://github.com/PublishQ/social-media-skills.git .agents/so
 Then point your agent at `.agents/social-media-skills/skills/`, and
 `git submodule update --remote` when you want the latest.
 
-### Option 4: Fork and customise
+### Option 5: Fork and customise
 
 Fork it, change the copy to match how your team posts, and install from your fork.
 Everything here is markdown, so a fork stays readable and merges cleanly.
@@ -107,7 +119,11 @@ Ask for what you want. The skill fires on its own:
 → finds it and cancels before it publishes
 ```
 
-You can also name it: `use the publishq skill to schedule this for Friday`.
+You can also invoke skills directly:
+
+```
+/publishq
+```
 
 ## What you need
 
