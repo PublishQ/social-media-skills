@@ -6,7 +6,7 @@ list.
 
 ## Register the server
 
-Three facts are the whole of it: the command is `npx -y @publishq/mcp`, the
+Three facts are the whole of it: the command is `npx -y @publishq/mcp@latest`, the
 transport is **stdio**, and `PUBLISHQ_API_KEY` goes in that server's environment.
 There is no HTTP endpoint and no `Authorization` header. The server refuses to start
 without the key.
@@ -18,7 +18,7 @@ Most clients take this block, in a JSON file they name themselves:
   "mcpServers": {
     "publishq": {
       "command": "npx",
-      "args": ["-y", "@publishq/mcp"],
+      "args": ["-y", "@publishq/mcp@latest"],
       "env": { "PUBLISHQ_API_KEY": "pq_live_..." }
     }
   }

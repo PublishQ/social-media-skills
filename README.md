@@ -127,7 +127,7 @@ You can also invoke skills directly:
 
 ## What you need
 
-An API key from [Settings → API Keys](https://publishq.com/app/settings), and the
+An API key from [API Keys](https://publishq.com/app/api-keys), and the
 social accounts you want to post to connected once in the dashboard. The agent never
 sees a platform password, only a key you can revoke.
 
