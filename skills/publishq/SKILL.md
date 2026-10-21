@@ -25,7 +25,7 @@ elsewhere with the same names, arguments and JSON:
 ## 1. Reach a working CLI
 
 ```bash
-npm install -g @publishq/cli
+npm install -g @publishq/cli@latest
 pq auth set --key "pq_live_..."     # or set PUBLISHQ_API_KEY
 pq accounts list --pretty
 ```
@@ -37,7 +37,7 @@ repeats for OR.
 **Done when `pq accounts list` returns the user's accounts and you have a UUID for
 every account you are posting to.**
 
-No key? Get one from <https://publishq.com/app/settings>: ask the user to paste it
+No key? Get one from <https://publishq.com/app/api-keys>: ask the user to paste it
 to you, or create it there yourself if you can already act in their browser. Never
 invent a key, and never carry on without one. If it fails for any other reason,
 report what the error said rather than working around it.
